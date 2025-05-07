@@ -1,0 +1,21 @@
+post:
+  tags:
+    - ASIC Miner
+  summary: Post ASIC Miner log data
+  operationId: post_asic_miner_log
+  security:
+    - rrc_code: []
+  responses:
+    '200':
+      description: OK with no response body
+    '401':
+      description: Invalid RRC_CODE
+      content:
+        application/json:
+          schema:
+            $ref: '../components/schemas/401_Unauthorized.yaml'
+  requestBody:
+    content:
+      application/json:
+        schema:
+          $ref: '../components/schemas/asic_miner_log.yaml'

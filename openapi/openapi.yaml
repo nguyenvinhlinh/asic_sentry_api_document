@@ -15,19 +15,8 @@ servers:
 paths:
   '/expected_status':
     $ref: 'paths/expected_status.yaml'
-
-#  '/users/{username}':
-#    $ref: 'paths/users_{username}.yaml'
-  # '/user':
-  #   $ref: 'paths/user.yaml'
-  # '/user/list':
-  #   $ref: 'paths/user-status.yaml'
-  # /pathItem:
-  #   $ref: paths/pathItem.yaml
-  # /pathItemWithExamples:
-  #   $ref: paths/pathItemWithExamples.yaml
-  # '/echo':
-  #   $ref: 'paths/echo.yaml'
+  '/asic_miner_log':
+    $ref: 'paths/asic_miner_log.yaml'
 components:
   securitySchemes:
     rrc_code:

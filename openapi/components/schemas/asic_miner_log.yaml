@@ -1,0 +1,8 @@
+type: object
+properties:
+  power_consumption:
+    type: integer
+  power_consumption_uom:
+    type: string
+    description: unit measurement of power consumption
+    example: W
