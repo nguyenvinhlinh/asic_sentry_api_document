@@ -8,6 +8,7 @@ info:
   x-logo:
     url: 'https://raw.githubusercontent.com/nguyenvinhlinh/asic_sentry_api_document/refs/heads/main/images/logo.png'
     altText: ASIC Sentry API Document
+    href: http://asic-sentry-api-docs.hexalink.xyz
   description: >-
     This is API document for ASIC Sentry serving Remote Relay Controller(RRC)
 servers:
