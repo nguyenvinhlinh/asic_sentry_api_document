@@ -1,0 +1,21 @@
+get:
+  tags:
+    - ASIC Miner
+  summary: Get ASIC miner expected status
+  operationId: expected_status
+  security:
+    - rrc_code: []
+
+  responses:
+    '200':
+      description: Successful response example
+      content:
+        application/json:
+          schema:
+            $ref: '../components/schemas/expected_status.yaml'
+    '401':
+      description: Invalid RRC_CODE
+      content:
+        application/json:
+          schema:
+            $ref: '../components/schemas/401_Unauthorized.yaml'

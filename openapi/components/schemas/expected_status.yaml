@@ -1,0 +1,15 @@
+description: "ASIC Miner expected status"
+type: object
+properties:
+  asic_expected_status:
+    description: "ASIC expected status on/off"
+    type: string
+    examples:
+      - on
+      - off
+  light_expected_status:
+    description: "Light bulb expected status on/off"
+    type: string
+    examples:
+      - on
+      - off
