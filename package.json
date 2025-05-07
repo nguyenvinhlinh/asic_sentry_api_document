@@ -1,13 +1,14 @@
 {
-  "name": "acme-api",
-  "version": "1.0.0",
-  "dependencies": {
-    "@redocly/cli": "1.28.5"
-  },
-  "private": true,
-  "scripts": {
-    "start": "redocly preview-docs",
-    "build": "redocly bundle -o dist/bundle.yaml",
-    "test": "redocly lint"
-  }
+    "name": "asic_sentry_api_document",
+    "version": "1.0.0",
+    "dependencies": {
+        "@redocly/cli": "1.28.5"
+    },
+    "private": true,
+    "scripts": {
+        "start": "redocly preview-docs --port 8086",
+        "build": "redocly bundle -o dist/bundle.yaml",
+        "build-html": "redocly build-docs  --output dist/asic_sentry.html",
+        "test": "redocly lint"
+    }
 }
