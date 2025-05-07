@@ -7,7 +7,7 @@
     "private": true,
     "scripts": {
         "start": "redocly preview-docs --port 8086",
-        "build": "redocly bundle -o dist/bundle.yaml",
+        "build": "redocly bundle openapi/openapi.yaml -o dist/bundle.yaml",
         "build-html": "redocly build-docs  --output dist/asic_sentry.html",
         "test": "redocly lint"
     }
