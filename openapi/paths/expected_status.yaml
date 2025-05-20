@@ -4,7 +4,7 @@ get:
   summary: Get ASIC miner expected status
   operationId: expected_status
   security:
-    - rrc_code: []
+    - rrc_serial_number: []
 
   responses:
     '200':
@@ -14,7 +14,7 @@ get:
           schema:
             $ref: '../components/schemas/expected_status.yaml'
     '401':
-      description: Invalid RRC_CODE
+      description: Invalid RRC_SERIAL_NUMBER
       content:
         application/json:
           schema:

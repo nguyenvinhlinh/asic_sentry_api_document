@@ -1,6 +1,10 @@
 description: "ASIC Miner expected status"
 type: object
 properties:
+  name:
+    description: "ASIC Miner name"
+    type: string
+    example: "Thanh Long"
   asic_expected_status:
     description: "ASIC expected status on/off"
     type: string

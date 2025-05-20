@@ -9,7 +9,7 @@ post:
     '200':
       description: OK with no response body
     '401':
-      description: Invalid RRC_CODE
+      description: Invalid RRC_SERIAL_NUMBER
       content:
         application/json:
           schema:

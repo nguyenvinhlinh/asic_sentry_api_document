@@ -19,7 +19,6 @@ Build html file to serve with nginx.
 #### `npm test`
 Validates the definition.
 
-
 ## Build with docker and get files for nginx.
 ```
 $ DOCKER_BUILDKIT=1 docker build -f  Dockerfile --target=release --output nginx-dist .
